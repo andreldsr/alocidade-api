@@ -12,7 +12,7 @@ module.exports = {
    ],
    "cli": {
       "migrationsDir": "src/config/database/migrations"
-   }
-   //"ssl": true,
-   //"extra": { "ssl": { "rejectUnauthorized": false } }
+   },
+   "ssl": true,
+   "extra": { "ssl": { "rejectUnauthorized": false } }
 }
